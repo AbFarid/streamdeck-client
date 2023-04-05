@@ -1,0 +1,22 @@
+{
+  "name": "streamdeck-client",
+  "version": "0.0.1",
+  "description": "Typescript client for the Elgato Stream Deck",
+  "main": "app.js",
+  "type": "module",
+  "target": "es2020",
+  "scripts": {
+    "start": "node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@elgato-stream-deck/node": "^5.7.2",
+    "jimp": "^0.22.7"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11"
+  }
+}
